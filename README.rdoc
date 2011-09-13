@@ -1,0 +1,5 @@
+== Outdated
+
+Outdated is a work in progress and currently at an early stage.
+
+Initial goal is to provide a tool which communicates existence of outdated software packages in a given system.
