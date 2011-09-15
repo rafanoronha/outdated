@@ -3,3 +3,25 @@
 Outdated is a work in progress and currently at an early stage.
 
 Initial goal is to provide a tool which communicates existence of outdated software packages in a given system.
+
+=== Using Outdated
+ruby /path/to/outdated.rb /path/to/my/config-file.yml
+
+=== Configuration
+
+At this early stage Outdated behaves correctly with the following configuration:
+
+  smtp:
+    server:
+      host: smtp.gmail.com
+      port: 587
+      helo_domain: smtp.gmail.com
+    tls: true
+    auth:
+      user: USER_NAME
+      pass: USER_PASS
+      type: plain
+  message:
+    from: FROM_ADDRESS
+    to: TO_ADDRESS
+    
